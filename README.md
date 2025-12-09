@@ -21,9 +21,9 @@ To build a user-friendly diabetes prediction system that:
 
 CatBoost is chosen because:
 
-- It handles categorical & numerical features very well
-- Requires minimal preprocessing
-- Performs strongly on structured medical datasets
+It handles complex feature interactions automatically and requires minimal preprocessing, which makes it ideal for medical tabular datasets.
+CatBoost produced higher ROC-AUC, better recall, and a more balanced F1-score, indicating stronger predictive ability.
+In our experiments, CatBoost consistently generalized better on unseen test data, making it the most reliable model for diabetes prediction.
 
 ---
 
@@ -33,7 +33,6 @@ CatBoost is chosen because:
 **Format:** CSV  
 **Source:** Kaggle / UCI
 
-*(You may upload your dataset to your repo's `/data` folder)*
 
 ### 🧬 Features in the Dataset:
 
